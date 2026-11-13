@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+  --color-ink-950: #0a0a0f;
+  --color-ink-900: #111118;
+  --color-ink-800: #1a1a24;
+  --color-ink-700: #262633;
+  --color-ivory-100: #f6f1e7;
+  --color-ivory-300: #cfc8b8;
+  --color-amber-400: #f4b63f;
+  --color-amber-500: #e89a12;
+  --color-crimson-500: #d1384f;
+  --color-success: #3dbe8b;
+  --color-danger: #f0566a;
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-ui: 'Instrument Sans Variable', Arial, sans-serif;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --radius-control: 6px;
+  --radius-card: 12px;
+  --radius-hero: 20px;
+  --shadow-amber: 0 0 24px rgb(244 182 63 / 20%);
+  --motion-fast: 180ms ease-out;
+  --motion-slow: 350ms ease-out;
+  --content-width: 1200px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0.01ms linear;
+    --motion-slow: 0.01ms linear;
+  }
+}

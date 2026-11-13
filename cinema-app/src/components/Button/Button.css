@@ -1,0 +1,7 @@
+.button { display: inline-flex; min-height: 2.75rem; align-items: center; justify-content: center; gap: .5rem; padding: .65rem 1rem; border: 1px solid transparent; border-radius: var(--radius-control); font: inherit; font-weight: 650; cursor: pointer; transition: background var(--motion-fast), color var(--motion-fast), border-color var(--motion-fast); }
+.button:disabled { cursor: not-allowed; opacity: .55; }
+.button--primary { background: var(--color-amber-400); color: var(--color-ink-950); }
+.button--primary:hover { background: var(--color-amber-500); }
+.button--secondary { border-color: var(--color-amber-400); background: transparent; color: var(--color-amber-400); }
+.button--secondary:hover { background: rgb(244 182 63 / 10%); }
+.button--ghost { background: transparent; color: var(--color-ivory-100); }

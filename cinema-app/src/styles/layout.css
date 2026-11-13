@@ -1,0 +1,4 @@
+.container { width: min(calc(100% - 2rem), var(--content-width)); margin-inline: auto; }
+.stack { display: flex; flex-direction: column; gap: var(--space-4); }
+.cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
+.section-space { padding-block: var(--space-16); }
